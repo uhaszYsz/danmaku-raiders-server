@@ -1,0 +1,6 @@
+{
+    "lobbyNumber": 10,
+    "lobbyQuestLimit": 10,
+    "questPlayerLimit": 3,
+    "lobbyPlayerLimit": 100
+}
