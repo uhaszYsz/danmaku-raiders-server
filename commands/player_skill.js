@@ -1,5 +1,5 @@
 module.exports = {
     execute(server, player, data) {
-        player.sendDataToQuest(data);
+        player.quest.sendDataToPlayers(data);
     }
 }
