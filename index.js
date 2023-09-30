@@ -7,6 +7,7 @@ const Lobby = require('./classes/Lobby');
 const Player = require('./classes/Player');
 const config = require('./config.json');
 
+
 // Create Server
 const server = new WebSocket.Server({ port: process.env.PORT || 3000});
 // Server variables
