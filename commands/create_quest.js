@@ -19,7 +19,8 @@ module.exports = {
             quest_id: quest.id,
             player_id: player.id,
             name: data.name,
-            limit: quest.playerLimit
+            limit: quest.playerLimit,
+            qid: data.qid
         });
         server.log(`Player ${player.id} created quest ${quest.name} (${quest.id}).`);
     }
