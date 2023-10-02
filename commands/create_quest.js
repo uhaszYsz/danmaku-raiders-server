@@ -12,7 +12,7 @@ module.exports = {
             return player.sendError("You have already created a quest!");
         player.leaveQuest();
         // Create quest
-        let quest = playerLobby.createQuest(data.name, player, data.square, server.questPlayerLimit);
+        let quest = playerLobby.createQuest(data.name, player, data.square, server.questPlayerLimit, data.qid);
         // Send quest info to player
         player.sendData({
             type: "created_quest",
